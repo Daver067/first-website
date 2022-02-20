@@ -1,12 +1,7 @@
-{
-
-    border: red solid 1px;
-}
 body {
     padding: 0px;
     border: 0px;
     margin: 0px;
-
 }
 .header-container{
     background-color: #1F2937 ;
@@ -98,6 +93,7 @@ button {
 }
 /* Starting here is the random info */
 #rando {
+    margin-top: 2em;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
@@ -107,6 +103,7 @@ button {
     padding: 0 25%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 8%;
 
 }
 .middle-container img {
@@ -120,5 +117,50 @@ button {
     font-weight: lighter;
     font-style: italic;
     text-align: center;
+    color: #1F2937;
+}
+/* comment */
+.comment {
+    background-color: #e5e7eb;
+    padding: 7% 20%;
+}
+.underimage.bigger {
+    font-size: 36px;
+}
+.underimage.bolder{
+    text-align: right;
+    font-weight: bolder;
+    font-size: large;
+}
+/* action statement*/
+
+.call-to-action {
+    margin: 100px;
+    background-color: #3882f6;
+    border: #3882f6 solid 1px;
+    border-radius: 6px;
+    padding-left: 10%;
+    display: flex;
+    color: white;
+}
+.action-words {
+    margin: 0;
 }
 
+.thebutton a,
+.thebutton a:visited {
+    color: white;
+    text-decoration: none;
+}
+.thebutton a:hover {
+    color: red;
+}
+.action-button {
+    padding-top: 28px;
+    padding-left: 100px;  
+}
+.signup { 
+    margin-top: -22px;
+    margin-bottom: 22px;
+    font-size: small;
+}
