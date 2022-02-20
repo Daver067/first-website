@@ -2,15 +2,26 @@
 
     border: red solid 1px;
 }
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+}
 .header-container{
     background-color: #1F2937 ;
     padding-bottom: 80px;
+    border: black solid 1px;
+    color: whitesmoke;
+    
 }
 .header-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 5px 50px 0 10px;
+}
+.header-top .spacer {
+    flex: 2;
 }
 .header-top ul {
     margin: 0;
@@ -18,16 +29,16 @@
     display: flex;
     text-align: center;
     padding: 0;
-    border: black solid .5px;
     flex: 1;
 }
 .header-top li {
     margin: auto;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    width: 100px;  
 }
 .header-top a,
 .header-top a:visited {
-    color: whitesmoke;
+    color: #e5e7eb;
     display: inline-block;
     position: relative;
     padding: 2em;
@@ -45,15 +56,18 @@
 }
 .header-container-middle {
     display: flex;
-    color: whitesmoke;
+    
 }
 .header-container-middle .left {
     flex: 1;
-    padding: 3em;
+    padding: 3em 0 3em 3em;
     margin: 0;
 }
 .header-container-middle h1{
     text-align: center;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
 }
 .header-container-middle .right {
     display: flex;
@@ -68,7 +82,7 @@
 }
 .left a,
 .left a:visited {
-    color: whitesmoke;
+    color: #e5e7eb;
     text-decoration: none;
 }
 .left a:hover {
@@ -80,5 +94,31 @@ button {
     margin: 0;
     padding: 2px 12px;
     border-radius: 8px;
+    border-color: #3882f6 ;
+}
+/* Starting here is the random info */
+#rando {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.middle-container {
+    padding: 0 25%;
+    display: flex;
+    justify-content: space-evenly;
 
 }
+.middle-container img {
+    height: 200px;
+    width: 200px;
+    border: blue solid 2px;
+    border-radius: 8px;
+}
+.underimage {
+    font-size: smaller;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
