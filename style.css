@@ -3,6 +3,7 @@ body {
     border: 0px;
     margin: 0px;
 }
+
 .header-container{
     background-color: #1F2937 ;
     padding-bottom: 80px;
@@ -163,4 +164,12 @@ button {
     margin-top: -22px;
     margin-bottom: 22px;
     font-size: small;
+}
+#footer {
+    background-color: #1F2937 ;
+    color: whitesmoke;
+    font-size: smaller;
+    text-align: center;
+    padding: 1% 5%;
+    margin: 20px 0 0 0;
 }
